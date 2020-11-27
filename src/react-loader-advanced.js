@@ -133,7 +133,7 @@ const createLoader = loaderStack => class Loader extends Component {
     active: false,
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this._stackId = uid();
   }
 
@@ -142,7 +142,7 @@ const createLoader = loaderStack => class Loader extends Component {
     this.initialize(this.props);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     this.initialize(nextProps);
   }
 
