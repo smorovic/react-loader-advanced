@@ -1,4 +1,5 @@
 # react-loader-advanced
+# copied from react-loader-advanced (updated to Babel 7 and core-js 3)
 
 [![npm version](https://badge.fury.io/js/react-loader-advanced.svg)](https://badge.fury.io/js/react-loader-advanced)
 [![Download Count](http://img.shields.io/npm/dm/react-loader-advanced.svg?style=flat-square)](https://npmjs.org/package/react-loader-advanced)
